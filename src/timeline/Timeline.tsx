@@ -238,7 +238,7 @@ const Timeline = (props: TimelineProps) => {
     return (
       <React.Fragment key={dayIndex}>
         {renderEvents(dayIndex)}
-        {indexOfToday !== -1 && showNowIndicator && <NowIndicator width={width / numberOfDays} left={left} styles={styles.current} />}
+        {indexOfToday !== -1 && showNowIndicator && <NowIndicator start={start} width={width / numberOfDays} left={left} styles={styles.current} />}
       </React.Fragment>
     );
   };

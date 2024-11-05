@@ -23,7 +23,7 @@ interface UnavailableHoursOptions {
   dayEnd: number;
 }
 
-export const HOUR_BLOCK_HEIGHT = 230;
+export const HOUR_BLOCK_HEIGHT = 240;
 const OVERLAP_EVENTS_SPACINGS = 10;
 const RIGHT_EDGE_SPACING = 10;
 
